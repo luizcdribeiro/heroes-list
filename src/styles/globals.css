@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dark {
+  @import 'tailwindcss/defaultConfig';
+  @import 'tailwindcss/dark';
+}
+
+body {
+  background-color: #1e293b;
+}
