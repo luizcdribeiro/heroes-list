@@ -1,5 +1,5 @@
 import api from "../api/api";
-import { Hero, HeroRequest } from "../interfaces";
+import { HeroRequest } from "../interfaces";
 
 export const getHeroes = async () => {
   try {
